@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .footer_img{
+        background-image: url("./assets/footer.png");
+        background-size: cover;
+        background-position: bottom;
+    }
+}
